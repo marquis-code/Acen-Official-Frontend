@@ -1,16 +1,16 @@
 {
-  "name": "@vueform/nuxt-starter",
+  "name": "ACEN",
   "version": "1.0.0",
   "private": false,
-  "description": "Vueform Nuxt 2 + Tailwind CSS 3 Boilerplate",
+  "description": "Officail Website for Association Of Clinical Endocrinologist Of Nigeria",
   "licence": "MIT",
-  "author": "Adam Berecz <adam@vueform.com>",
+  "author": "Marquis",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vueform/nuxt-starter.git"
+    "url": ""
   },
   "bugs": {
-    "url": "https://github.com/vueform/nuxt-starter/issues"
+    "url": ""
   },
   "scripts": {
     "dev": "nuxt",
@@ -24,18 +24,26 @@
   "dependencies": {
     "@nuxt/content": "^1.15.1",
     "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/bootstrap-vue": "^2.0.4",
     "@nuxtjs/moment": "^1.6.1",
     "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/sitemap": "^2.4.0",
     "@vueform/vueform": "^1.2.6",
     "axios": "^0.25.0",
+    "bootstrap": "^5.3.2",
+    "bootstrap-vue": "^2.23.1",
     "core-js": "^3.19.3",
     "lodash": "^4.17.21",
     "node-sass": "^7.0.1",
     "nuxt": "^2.15.8",
+    "nuxt-sweetalert2": "^1.0.0",
     "sass-loader": "^10.2.1",
     "vue": "^2.6.14",
+    "vue-carousel": "^0.18.0",
     "vue-server-renderer": "^2.6.14",
+    "vue-ssr-carousel": "^2.3.2",
     "vue-template-compiler": "^2.6.14",
+    "vue-toastr": "^2.1.2",
     "webpack": "^4.46.0"
   },
   "devDependencies": {
