@@ -1,23 +1,23 @@
 <template>
   <main>
-    <NavigationbarSection />
     <CarouselSection />
     <IntroductionActivities />
     <ActivitiesSection />
+    <MapSection />
   </main>
 </template>
 
 <script>
-import NavigationbarSection from '@/components/NavigationbarSection.vue'
 import CarouselSection from '@/components/CarouselSection.vue'
 import IntroductionActivities from '@/components/IntroductionActivities.vue'
 import ActivitiesSection from '@/components/ActivitiesSection.vue'
+import MapSection from '@/components/MapSection.vue'
 export default {
   components: {
-    NavigationbarSection,
     CarouselSection,
     IntroductionActivities,
-    ActivitiesSection
+    ActivitiesSection,
+    MapSection
   }
 }
 </script>

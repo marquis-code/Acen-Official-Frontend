@@ -1,126 +1,126 @@
 <template>
-  <section class="px-5 py-10 dark:bg-gray-800 dark:text-gray-100">
-    <div class="container grid grid-cols-12 mx-auto gap-y-6 md:gap-10">
-      <div class="flex flex-col justify-between col-span-12 py-2 space-y-8 md:space-y-16 md:col-span-3">
-        <div class="flex flex-col space-y-8 md:space-y-12">
-          <div class="flex flex-col space-y-2">
-            <h3 class="flex items-center space-x-2 dark:text-gray-400">
-              <span class="flex-shrink-0 w-2 h-2 uppercase rounded-full dark:bg-violet-400" />
-              <span class="text-xs font-bold tracki uppercase">Exclusive</span>
-            </h3>
-            <a rel="noopener noreferrer" href="#" class="font-serif hover:underline">Donec sed elit quis odio mollis dignissim eget et nulla.</a>
-            <p class="text-xs dark:text-gray-400">
-              47 minutes ago by
-              <a rel="noopener noreferrer" href="#" class="hover:underline dark:text-violet-400">Leroy Jenkins</a>
-            </p>
-          </div>
-          <div class="flex flex-col space-y-2">
-            <h3 class="flex items-center space-x-2 dark:text-gray-400">
-              <span class="flex-shrink-0 w-2 h-2 uppercase rounded-full dark:bg-violet-400" />
-              <span class="text-xs font-bold tracki uppercase">Exclusive</span>
-            </h3>
-            <a rel="noopener noreferrer" href="#" class="font-serif hover:underline">Ut fermentum nunc quis ipsum laoreet condimentum.</a>
-            <p class="text-xs dark:text-gray-400">
-              2 hours ago by
-              <a rel="noopener noreferrer" href="#" class="hover:underline dark:text-violet-400">Leroy Jenkins</a>
-            </p>
-          </div>
-          <div class="flex flex-col space-y-2">
-            <h3 class="flex items-center space-x-2 dark:text-gray-400">
-              <span class="flex-shrink-0 w-2 h-2 uppercase rounded-full dark:bg-violet-400" />
-              <span class="text-xs font-bold tracki uppercase">Exclusive</span>
-            </h3>
-            <a rel="noopener noreferrer" href="#" class="font-serif hover:underline">Nunc nec ipsum lobortis, pulvinar neque sed.</a>
-            <p class="text-xs dark:text-gray-400">
-              4 hours ago by
-              <a rel="noopener noreferrer" href="#" class="hover:underline dark:text-violet-400">Leroy Jenkins</a>
-            </p>
-          </div>
-        </div>
-        <div class="flex flex-col w-full space-y-2">
-          <div class="flex w-full h-1 bg-opacity-10 dark:bg-violet-400">
-            <div class="w-1/2 h-full dark:bg-violet-400" />
-          </div>
-          <a rel="noopener noreferrer" href="#" class="flex items-center justify-between w-full">
-            <span class="text-xs font-bold tracki uppercase">See more exclusives</span>
-            <svg
-              viewBox="0 0 24 24"
-              stroke-width="2.5"
-              fill="none"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="w-4 stroke-current dark:text-violet-400"
-            >
-              <line x1="5" y1="12" x2="19" y2="12" />
-              <polyline points="12 5 19 12 12 19" />
-            </svg>
-          </a>
-        </div>
-      </div>
-      <div class="relative flex col-span-12 bg-center bg-no-repeat bg-cover dark:bg-gray-500 xl:col-span-6 lg:col-span-5 md:col-span-9 min-h-96" style="background-image: url('https://source.unsplash.com/random/239x319');">
-        <span class="absolute px-1 pb-2 text-xs font-bold uppercase border-b-2 left-6 top-6 dark:border-violet-400 dark:text-gray-100">paris, france</span>
-        <a class="flex flex-col items-center justify-end p-6 text-center sm:p-8 group dark:via-transparent flex-grow-1 bg-gradient-to-b dark:from-gray-900 dark:to-gray-900">
-          <span class="flex items-center mb-4 space-x-2 dark:text-violet-400">
-            <span class="relative flex-shrink-0 w-2 h-2 rounded-full dark:bg-violet-400">
-              <span class="absolute flex-shrink-0 w-3 h-3 rounded-full -left-1 -top-1 animate-ping dark:bg-violet-400" />
-            </span>
-            <span class="text-sm font-bold">Live</span>
-          </span>
-          <h1 rel="noopener noreferrer" href="#" class="font-serif text-2xl font-semibold group-hover:underline dark:text-gray-100">Morbi mattis justo est, ac consectetur dui eleifend vitae. Donec venenatis?</h1>
-        </a>
-      </div>
-      <div class="hidden py-2 xl:col-span-3 lg:col-span-4 md:hidden lg:block">
-        <div class="mb-8 space-x-5 border-b-2 border-opacity-10 dark:border-violet-400">
-          <button type="button" class="pb-5 text-xs font-bold uppercase border-b-2 dark:border-violet-400">
-            Latest
-          </button>
-          <button type="button" class="pb-5 text-xs font-bold uppercase border-b-2 dark:border-transparent dark:text-gray-400">
-            Popular
-          </button>
-        </div>
-        <div class="flex flex-col divide-y divide-gray-700">
-          <div class="flex px-1 py-4">
-            <img alt="" class="flex-shrink-0 object-cover w-20 h-20 mr-4 dark:bg-gray-500" src="https://source.unsplash.com/random/244x324">
-            <div class="flex flex-col flex-grow">
-              <a rel="noopener noreferrer" href="#" class="font-serif hover:underline">Aenean ac tristique lorem, ut mollis dui.</a>
-              <p class="mt-auto text-xs dark:text-gray-400">
-                5 minutes ago
-                <a rel="noopener noreferrer" href="#" class="block dark:text-blue-400 lg:ml-2 lg:inline hover:underline">Politics</a>
-              </p>
+  <section class="flex gapp-x-6">
+    <div>
+      <section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="-my-8 lg:divide-y-2 divide-gray-800">
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="font-semibold title-font text-white">CATEGORY</span>
+                <span class="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-white title-font mb-2">Bitters hashtag waistcoat fashion axe chia unicorn</h2>
+                <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
+                <a class="text-indigo-400 inline-flex items-center mt-4">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="flex px-1 py-4">
-            <img alt="" class="flex-shrink-0 object-cover w-20 h-20 mr-4 dark:bg-gray-500" src="https://source.unsplash.com/random/245x325">
-            <div class="flex flex-col flex-grow">
-              <a rel="noopener noreferrer" href="#" class="font-serif hover:underline">Nulla consectetur efficitur.</a>
-              <p class="mt-auto text-xs dark:text-gray-400">
-                14 minutes ago
-                <a rel="noopener noreferrer" href="#" class="block dark:text-blue-400 lg:ml-2 lg:inline hover:underline">Sports</a>
-              </p>
+            <div class="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="font-semibold title-font text-white">CATEGORY</span>
+                <span class="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-white title-font mb-2">Meditation bushwick direct trade taxidermy shaman</h2>
+                <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
+                <a class="text-indigo-400 inline-flex items-center mt-4">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="flex px-1 py-4">
-            <img alt="" class="flex-shrink-0 object-cover w-20 h-20 mr-4 dark:bg-gray-500" src="https://source.unsplash.com/random/246x326">
-            <div class="flex flex-col flex-grow">
-              <a rel="noopener noreferrer" href="#" class="font-serif hover:underline">Vitae semper augue purus tincidunt libero.</a>
-              <p class="mt-auto text-xs dark:text-gray-400">
-                22 minutes ago
-                <a rel="noopener noreferrer" href="#" class="block dark:text-blue-400 lg:ml-2 lg:inline hover:underline">World</a>
-              </p>
-            </div>
-          </div>
-          <div class="flex px-1 py-4">
-            <img alt="" class="flex-shrink-0 object-cover w-20 h-20 mr-4 dark:bg-gray-500" src="https://source.unsplash.com/random/247x327">
-            <div class="flex flex-col flex-grow">
-              <a rel="noopener noreferrer" href="#" class="font-serif hover:underline">Suspendisse potenti.</a>
-              <p class="mt-auto text-xs dark:text-gray-400">
-                37 minutes ago
-                <a rel="noopener noreferrer" href="#" class="block dark:text-blue-400 lg:ml-2 lg:inline hover:underline">Business</a>
-              </p>
+            <div class="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="font-semibold title-font text-white">CATEGORY</span>
+                <span class="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-white title-font mb-2">Woke master cleanse drinking vinegar salvia</h2>
+                <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
+                <a class="text-indigo-400 inline-flex items-center mt-4">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
+    </div>
+    <div>
+      <section class="text-gray-400 bg-gray-900 body-font overflow-hidden">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="-my-8 divide-y-2 divide-gray-800">
+            <div class="py-8 flex flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="font-semibold title-font text-white">CATEGORY</span>
+                <span class="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-white title-font mb-2">Bitters hashtag waistcoat fashion axe chia unicorn</h2>
+                <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
+                <a class="text-indigo-400 inline-flex items-center mt-4">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="font-semibold title-font text-white">CATEGORY</span>
+                <span class="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-white title-font mb-2">Meditation bushwick direct trade taxidermy shaman</h2>
+                <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
+                <a class="text-indigo-400 inline-flex items-center mt-4">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="py-8 flex border-t-2 border-gray-800 flex-wrap md:flex-nowrap">
+              <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                <span class="font-semibold title-font text-white">CATEGORY</span>
+                <span class="mt-1 text-gray-500 text-sm">12 Jun 2019</span>
+              </div>
+              <div class="md:flex-grow">
+                <h2 class="text-2xl font-medium text-white title-font mb-2">Woke master cleanse drinking vinegar salvia</h2>
+                <p class="leading-relaxed">Glossier echo park pug, church-key sartorial biodiesel vexillologist pop-up snackwave ramps cornhole. Marfa 3 wolf moon party messenger bag selfies, poke vaporware kombucha lumbersexual pork belly polaroid hoodie portland craft beer.</p>
+                <a class="text-indigo-400 inline-flex items-center mt-4">Learn More
+                  <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </section>
 </template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style>
+
+</style>
